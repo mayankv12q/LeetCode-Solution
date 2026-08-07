@@ -1,7 +1,7 @@
 class Solution {
 public:
     int strStr(string haystack, string needle) {
-        int n = haystack.length();
+        int n = haystack.length(); // O(N+M)
         int m = needle.length();
 
         if(m == 0) return 0;
